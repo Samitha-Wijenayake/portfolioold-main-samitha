@@ -1,4 +1,6 @@
 import React from "react";
+import uomlogo from "../assets/uomlogo.png"
+import slogo from "../assets/sjvlogo.png"
 
 const About = () => {
   return (
@@ -24,7 +26,7 @@ const About = () => {
           <div className="bg-transparent border border-gray-300 p-6 rounded-lg transition-transform transform hover:scale-105 duration-300 hover:border-neutral-300">
             <div className="flex items-center mb-5">
               <div className="w-16 h-16 rounded-full overflow-hidden mr-4">
-                <img src="src/assets/uomlogo.png" alt="University of Moratuwa Logo" className="object-cover w-full h-full"/>
+                <img src={uomlogo} alt="University of Moratuwa Logo" className="object-cover w-full h-full"/>
               </div>
               <h3 className="text-2xl font-bold text-white">University of Moratuwa</h3>
             </div>
@@ -49,7 +51,7 @@ const About = () => {
           <div className="bg-transparent border border-gray-300 p-6 rounded-lg transition-transform transform hover:scale-105 duration-300 hover:border-neutral-3000">
             <div className="flex items-center mb-5">
               <div className="w-16 h-16 rounded-full overflow-hidden mr-4">
-                <img src="src/assets/sjvlogo.png" alt="Swarna Jayanthi National College Logo" className="object-cover w-full h-full"/>
+                <img src={slogo} alt="Swarna Jayanthi National College Logo" className="object-cover w-full h-full"/>
               </div>
               <h3 className="text-2xl font-bold text-white">Swarna Jayanthi National College, Kegalle</h3>
             </div>
