@@ -30,7 +30,7 @@ const Hero = () => {
 
           </div>
           <div className="py-8 sm:pl-4 ">
-            <a href="https://drive.google.com/file/d/1RHt3BPyVAiNDPah11x4Cq97g4lacMpQ3/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1-xWP3mVj9pJNujKDQ7_fUkGm4bdPUG_o/view?usp=sharing">
               <button className="px-1   py-1 w-full sm:w-fit lg:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
                 <span className="block bg-slate-900 hover:bg-slate-800 rounded-full px-5 py-2">
                   Download Resume

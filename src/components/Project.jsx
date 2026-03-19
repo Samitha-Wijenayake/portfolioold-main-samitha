@@ -4,6 +4,8 @@ import Portfolio from "../assets/portfolio.png";
 import Carrom from "../assets/carrom.png"; 
 import mobileapp from "../assets/2nd-year-mobile-app.png";
 import { LiaNode } from "react-icons/lia";
+import { FaFileAlt } from "react-icons/fa";
+
 
 import Bottle from "../assets/bottlemachine.jfif";
 import {
@@ -40,7 +42,7 @@ const Project = () => {
               class="rounded-md object-cover"
             />
           </div>
-          {/* Project Title */}
+          {/* tuition classes-Web app------------------------------------------------------------------------------------------ */}
           <div>
             <h2 class="text-2xl font-semibold mb-2">Management system for tuition classes-Web app</h2>
             <span class="block text-sm text-gray-400">2024</span>
@@ -92,7 +94,7 @@ const Project = () => {
           </div> */}
         </div>
 
-        {/* Another Project Card */}
+        {/* tuition classes-Mobile app----------------------------------------------------------------------------------------- */}
         <div class="w-full sm:w-1/3 bg-[#0d0f20] rounded-lg shadow-lg p-6 text-white transition-transform transform hover:scale-105 hover:shadow-xl">
           {/* Image */}
           <div class="mb-4">
@@ -132,7 +134,50 @@ const Project = () => {
           </div>
         </div>
 
-        {/* Mora Carrom Web App */}
+{/* ReactNative Mini  Project ----------------------------------------------------------------------------------------- */}
+<div class="w-full sm:w-1/3 bg-[#0d0f20] rounded-lg shadow-lg p-6 text-white transition-transform transform hover:scale-105 hover:shadow-xl">
+          {/* Image */}
+          <div class="mb-4">
+            <img
+              src={mobileapp}
+              alt="Portfolio Screenshot"
+              class="rounded-md object-cover"
+            />
+          </div>
+
+          
+          <div>
+            <h2 class="text-2xl font-semibold mb-2">ReactNative Mini  Project</h2>
+            <span class="block text-sm text-gray-400">2024</span>
+          </div>
+          {/* Project Description */}
+          <div class="mt-4">
+            <p class="text-gray-300 text-sm">
+            As part of the Mobile Applications Development module, I created a mobile app with user authentication 
+            (registration and login), smooth navigation, and a home page displaying items fetched from a public API. 
+            Users can view items in a card layout, track item clicks with a floating button, and see their username displayed 
+            after login. State management and modern app development practices were implemented to enhance functionality and user 
+            experience.
+            </p>
+          </div>
+          {/* Role */}
+          <div class="mt-4">
+            <p class="text-sm font-semibold">
+              Role: <span class="text-[#72e9ff]">Frontend Developer</span>
+            </p>
+          </div>
+          {/* Technologies */}
+          <p class="text-sm font-semibold mt-4">Technologies:</p>
+          {/* Tech Stack Icons */}
+          <div class="flex space-x-2 mt-2">
+            <FaFileAlt className="text-3xl text-cyan-400" />
+            <LiaNode className="text-3xl text-blue-600" />
+            <SiMongodb className="text-3xl text-cyan-600" />
+          </div>
+        </div>
+
+
+        {/* Mora Carrom Web App----------------------------------------------------------------------------------------------------------- */}
         <div class="w-full sm:w-1/3 bg-[#0d0f20] rounded-lg shadow-lg p-6 text-white transition-transform transform hover:scale-105 hover:shadow-xl">
           {/* Image */}
           <div class="mb-4">
@@ -170,6 +215,8 @@ const Project = () => {
           </div>
         </div>
 
+
+
         {/* Another Project Card */}
         <div class="w-full sm:w-1/3 bg-[#0d0f20] rounded-lg shadow-lg p-6 text-white transition-transform transform hover:scale-105 hover:shadow-xl">
           {/* Image */}
@@ -180,7 +227,7 @@ const Project = () => {
               class="rounded-md object-cover"
             />
           </div>
-          {/* Project Title */}
+          {/* Portfolio------------------------------------------------------------------------------------------------------------ */}
           <div>
             <h2 class="text-2xl font-semibold mb-2">Portfolio Website</h2>
             <span class="block text-sm text-gray-400">2024</span>
@@ -200,9 +247,41 @@ const Project = () => {
             <RiReactjsLine className="text-3xl text-cyan-400" />
             <RiTailwindCssFill className="text-3xl text-teal-500" />
           </div>
+        </div> 
+
+         {/* Flutter Assignment---------------------------------------------------------------------------------------------*/}
+         <div class="w-full sm:w-1/3 bg-[#0d0f20] rounded-lg shadow-lg p-6 text-white transition-transform transform hover:scale-105 hover:shadow-xl">
+          {/* Image */}
+          <div class="mb-4">
+            <img
+              src={Portfolio}
+              alt="Portfolio Screenshot"
+              class="rounded-md object-cover"
+            />
+          </div>
+          {/* Project Title */}
+          <div>
+            <h2 class="text-2xl font-semibold mb-2">Flutter Project</h2>
+            <span class="block text-sm text-gray-400">2024</span>
+          </div>
+          {/* Project Description */}
+          <div class="mt-4">
+            <p class="text-gray-300 text-sm">
+              I am building my portfolio website using React.js and TailwindCSS.
+              This site will showcase my personal details, skills, and work in a
+              user-friendly and visually appealing manner.
+            </p>
+          </div>
+          {/* Technologies */}
+          <p class="text-sm font-semibold mt-4">Technologies:</p>
+          {/* Tech Stack Icons */}
+          <div class="flex space-x-2 mt-2">
+            <RiReactjsLine className="text-3xl text-cyan-400" />
+            <RiTailwindCssFill className="text-3xl text-teal-500" />
+          </div>
         </div>
 
-        {/* Another Project Card */}
+        {/* Hardware project--------------------------------------------------------------------------------------------- */}
         <div class="w-full sm:w-1/3 bg-[#0d0f20] rounded-lg shadow-lg p-6 text-white transition-transform transform hover:scale-105 hover:shadow-xl">
           {/* Image */}
           <div class="mb-4">
