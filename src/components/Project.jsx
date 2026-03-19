@@ -249,37 +249,7 @@ const Project = () => {
           </div>
         </div> 
 
-         {/* Flutter Assignment---------------------------------------------------------------------------------------------*/}
-         <div class="w-full sm:w-1/3 bg-[#0d0f20] rounded-lg shadow-lg p-6 text-white transition-transform transform hover:scale-105 hover:shadow-xl">
-          {/* Image */}
-          <div class="mb-4">
-            <img
-              src={Portfolio}
-              alt="Portfolio Screenshot"
-              class="rounded-md object-cover"
-            />
-          </div>
-          {/* Project Title */}
-          <div>
-            <h2 class="text-2xl font-semibold mb-2">Flutter Project</h2>
-            <span class="block text-sm text-gray-400">2024</span>
-          </div>
-          {/* Project Description */}
-          <div class="mt-4">
-            <p class="text-gray-300 text-sm">
-              I am building my portfolio website using React.js and TailwindCSS.
-              This site will showcase my personal details, skills, and work in a
-              user-friendly and visually appealing manner.
-            </p>
-          </div>
-          {/* Technologies */}
-          <p class="text-sm font-semibold mt-4">Technologies:</p>
-          {/* Tech Stack Icons */}
-          <div class="flex space-x-2 mt-2">
-            <RiReactjsLine className="text-3xl text-cyan-400" />
-            <RiTailwindCssFill className="text-3xl text-teal-500" />
-          </div>
-        </div>
+        
 
         {/* Hardware project--------------------------------------------------------------------------------------------- */}
         <div class="w-full sm:w-1/3 bg-[#0d0f20] rounded-lg shadow-lg p-6 text-white transition-transform transform hover:scale-105 hover:shadow-xl">
